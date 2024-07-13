@@ -1,0 +1,23 @@
+api_data.all_users:
+  path: '/api-data/all-users'
+  defaults:
+    _controller: '\Drupal\api_data\Controller\ApiDataController::allUsers'
+    _title: 'All Users'
+  requirements:
+    _permission: 'access content'
+
+api_data.gmail_users:
+  path: '/api-data/gmail-users'
+  defaults:
+    _controller: '\Drupal\api_data\Controller\ApiDataController::gmailUsers'
+    _title: 'Gmail Users'
+  requirements:
+    _permission: 'access content'
+
+api_data.users_ascending_sort:
+  path: '/api-data/users-ascending-sort'
+  defaults:
+    _controller: '\Drupal\api_data\Controller\ApiDataController::usersAscendingSort'
+    _title: 'Users Sorted by Name'
+  requirements:
+    _permission: 'access content'

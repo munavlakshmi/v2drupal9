@@ -1,0 +1,3 @@
+services:
+  api_data_with_service.user_data_service:
+    class: '\Drupal\api_data_with_service\Service\UserDataService'

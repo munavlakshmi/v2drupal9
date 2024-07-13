@@ -1,0 +1,5 @@
+name: 'API Data with Service'
+type: module
+description: 'Fetches and displays data from an external API using a service.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom

@@ -1,0 +1,40 @@
+arrays_php.typesofArrays:
+  path: '/arrays/typesofArrays'
+  defaults:
+    _controller: '\Drupal\arrays_php\Controller\ArraysController::arrayTypes'
+    _title: 'Types of Arrays'
+  requirements:
+    _permission: 'access content'
+
+arrays_php.arrayFunctions:
+  path: '/arrays/arrayFunctions'
+  defaults:
+    _controller: '\Drupal\arrays_php\Controller\ArraysController::arrayFunctions'
+    _title: 'Functions of arrays'
+  requirements:
+    _permission: 'access content'
+
+arrays_php.arraymergedeep:
+  path: '/arrays/arraymergedeep'
+  defaults:
+    _controller: '\Drupal\arrays_php\Controller\ArraysController::arraymergedeep'
+    _title: 'drupal_array_merge_deep() is deprecated in favor of the NestedArray::mergeDeep()'
+  requirements:
+    _permission: 'access content'
+
+arrays_php.mapAssoc:
+  path: '/arrays/mapAssoc'
+  defaults:
+    _controller: '\Drupal\arrays_php\Controller\ArraysController::mapAssoc'
+    _title: 'The indexed array to be transformed into an associative array'
+  requirements:
+    _permission: 'access content'
+
+arrays_php.manipulateNestedArray:
+  path: '/arrays/manipulateNestedArray'
+  defaults:
+    _controller: '\Drupal\arrays_php\Controller\ArraysController::manipulateNestedArray'
+    _title: 'manipulateNestedArray'
+  requirements:
+    _permission: 'access content'
+

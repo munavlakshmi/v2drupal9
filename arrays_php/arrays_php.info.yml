@@ -1,0 +1,6 @@
+name: 'Arrays PHP'
+type: module
+description: 'A module to demonstrate using arrays in controllers in Drupal 10.'
+core_version_requirement: ^10
+package: Custom
+dependencies: []

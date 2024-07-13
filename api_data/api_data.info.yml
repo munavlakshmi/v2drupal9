@@ -1,0 +1,6 @@
+# api_data.info.yml
+name: 'API Data'
+type: module
+description: 'Fetches and displays data from an external API.'
+core_version_requirement: ^10
+package: Custom
